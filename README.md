@@ -21,9 +21,9 @@ You can customize the deployment by modifying the variables in the `terraform.tf
 
 ## **Getting Started**
 
-1. Clone the repository: $ git clone https://github.com/NashTech-Labs/Terraform-Azure-Virtual-WAN-and-Hubs.git
+1. Clone the repository: $ git clone https://github.com/NashTech-Labs/deploy_kubernetes_on_argocd_with_terraform.git
 
-2. Navigate to the repository: $ cd Terraform-Azure-Virtual-WAN-and-Hubs
+2. Navigate to the repository: $ cd deploy_kubernetes_on_argocd_with_terraform
 
 3. Review and customize variable values in terraform.tfvars.
 
