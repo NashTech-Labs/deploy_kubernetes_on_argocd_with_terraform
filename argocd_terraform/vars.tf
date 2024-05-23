@@ -1,0 +1,17 @@
+variable "cluster_name" {}
+variable "namespace_name" {}
+variable "secret_name" {}
+variable "config_map_name" {}
+variable "repo_config_name" {}
+variable "deployment_name" {}
+variable "deployment_app_label" {}
+variable "container_name" {}
+variable "argocd_image" {}
+variable "container_port" {}
+variable "mount_path_secret" {}
+variable "mount_path_config" {}
+variable "service_name" {}
+variable "service_port" {}
+variable "server_secret_key" {}
+variable "argocd_domain" {}
+variable "git_repo_url" {}

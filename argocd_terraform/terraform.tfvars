@@ -1,0 +1,17 @@
+cluster_name          = "YOUR_CLUSTER_NAME"
+namespace_name        = "argocd"
+secret_name           = "argocd-secret"
+config_map_name       = "argocd-cm"
+repo_config_name      = "argocd-repo-server"
+deployment_name       = "argocd-server"
+deployment_app_label  = "argocd"
+container_name        = "argocd-server"
+argocd_image          = "argoproj/argocd:v2.1.4"
+container_port        = 8080
+mount_path_secret     = "/app/config/secret"
+mount_path_config     = "/app/config"
+service_name          = "argocd-server"
+service_port          = 8080
+server_secret_key     = "YOUR_SERVER_SECRET_KEY"
+argocd_domain         = "https://YOUR_ARGOCD_DOMAIN"
+git_repo_url          = "YOUR_GIT_REPO_URL"
